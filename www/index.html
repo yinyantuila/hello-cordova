@@ -29,6 +29,22 @@
     <!-- These library references (below) are just examples to give you the general idea... -->
     <script src="lib/ua-parser.js"></script>
     <script src="lib/moment.js"></script>
+ <!-- phantom library, needed for Cordova api calls -->
+    <script src="cordova.js"></script>
+
+    <!-- miscellaneous utility functions -->
+    <script src="xdk/xdk-lib-util.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/cordova-acc.js"></script>
+    <script src="js/cordova-geo.js"></script>
+    <script src="js/init-app.js"></script>
+
+    <!-- normalizes "deviceready" and "documentready" events, see file for details -->
+    <script src="xdk/init-dev.js"></script>
+
+    <!-- Place your remote debugging weinre script URL here, if it does not work above. -->
+    <!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
 
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -283,23 +299,7 @@
 
     <!-- See <head> section above for additional JS libraries loaded as part of this app. -->
 
-    <!-- phantom library, needed for Cordova api calls -->
-    <script src="cordova.js"></script>
-
-    <!-- miscellaneous utility functions -->
-    <script src="xdk/xdk-lib-util.js"></script>
-
-    <script src="js/app.js"></script>
-    <script src="js/cordova-acc.js"></script>
-    <script src="js/cordova-geo.js"></script>
-    <script src="js/init-app.js"></script>
-
-    <!-- normalizes "deviceready" and "documentready" events, see file for details -->
-    <script src="xdk/init-dev.js"></script>
-
-    <!-- Place your remote debugging weinre script URL here, if it does not work above. -->
-    <!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
-
+   
 </body>
 
 <!--
